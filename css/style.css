@@ -7274,7 +7274,7 @@ body {
   line-height: 1.8;
   font-weight: 300;
   color: gray;
-  background: url(../images/bg_4.jpg) fixed  ;
+  
    }
   body.menu-show {
     overflow: hidden;
@@ -8980,6 +8980,11 @@ textarea.form-control {
  }
  .menu-wrap{
    padding-top: 20px;
+   background-color: #121618;
+   border-radius:20px;
+   box-shadow:1px 1px 20px 11px rgb(0 0 0 / 20%) ;
+   padding-bottom: 30px;
+   margin-bottom: 20px;
  }
  h3{
   
