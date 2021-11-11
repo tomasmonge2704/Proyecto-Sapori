@@ -372,5 +372,4 @@ function isValidEmail(email) {
     return pattern.test(email);
 };
 
-social("twitter/joeharry__", "codepen/woodwork",
-"disco");
+
