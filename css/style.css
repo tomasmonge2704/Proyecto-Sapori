@@ -12245,4 +12245,28 @@ input:-webkit-autofill {
             transform: rotate(15deg);
   }
 }
+
+@media (max-width: 375px) {
+  .row .nav {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .ftco-menu .nav-pills .nav-link {
+    font-size: 15px;
+    text-align: center;
+  }
+  .productos .col-md-4 {
+    width: 50%;
+  }
+  .menu-wrap {
+    width: 100%;
+  }
+  .menu-wrap .menu-img {
+    width: 150px;
+    height: 150px;
+  }
+  .menu-wrap .text h3 {
+    font-size: 15px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
