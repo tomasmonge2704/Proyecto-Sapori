@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-
+	<script src="js/popper.min.js"></script>
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/ionicons.min.css">
@@ -23,7 +23,8 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-    
+    <!--Icon-Font-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
@@ -32,23 +33,64 @@
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 		      <a class="navbar-brand" href="index.html"><img src="images/logo blanco.png" alt=""></a>
-		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" >
 		        <span class="oi oi-menu"></span> Menu
 		      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+	          <li class="nav-item"><a href="#seccion-productos" class="nav-link">Productos</a></li>
 	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
 	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a class="nav-link" onclick="toggleForm">Contact</a></li>
 	        </ul>
 	      </div>
 		  </div>
 	  </nav>
     <!-- END nav -->
-
+	<script>
+		$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+	</script>
+	<div class="containerr">
+        <input type="checkbox" id="btn-mas">
+        <div class="redes">
+            
+            <a href="#"  data-tooltip="left" role="tooltip" aria-label="escribenos!"style="background-color: green;"><div class="fa fa-whatsapp" ></div></a>
+            <a href="#" data-tooltip="left" role="tooltip" aria-label="Mira nuestro perfil!"style="background-color:black;"><div class="fa fa-instagram" ></div></a>
+            <a>
+				<div class="icon fa fa-pencil" id="form-container"  >
+				<span class="icon fa fa-close" id="form-close"></span>
+				<div id="form-content" class="">
+				  <div id="form-head">
+					<h1 class="pre">Get in touch</h1>
+					<p class="pre">Good choice...</p>
+					<h1 class="post">Thanks!</h1>
+					<p class="post">I'll be in touch ASAP</p>
+				  </div>
+				  <form>
+					<input class="input name" name="user_name" placeholder="Your name please" type="text">
+					<input class="input email" name="user_email" placeholder="A contact email" type="text">
+					<select class="input select" name="subject">
+					  <option disabled="">What shall we talk about?</option>
+					  <option selected="">About a new project</option>
+					  <option>About a job opportunity</option>
+					  <option>Let's do this over a coffee</option>
+					</select>
+					<textarea class="input message" placeholder="How can I help?"></textarea>
+					<input class="input submit" type="submit" value="Send Message">
+				  </form>
+				</div>
+			  </div>
+			</a>
+        </div>
+        <div class="btn-mas">
+            <label for="btn-mas" class="fa fa-plus"></label>
+        </div>
+    </div>
+	
+	  
     <section class="home-slider owl-carousel img">
       <div class="slider-item">
       	<div class="overlay"></div>
@@ -81,32 +123,28 @@
 	    				<div class="col-md-4 d-flex ftco-animate">
 	    					<div class="icon"><span class="icon-phone"></span></div>
 	    					<div class="text">
-	    						<h3>000 (123) 456 7890</h3>
-	    						<p>A small river named Duden flows</p>
+	    						<h3>+54 115416740</h3>
+	    						<p>Llamanos para reservar tus picadas!</p>
 	    					</div>
 	    				</div>
 	    				<div class="col-md-4 d-flex ftco-animate">
 	    					<div class="icon"><span class="icon-my_location"></span></div>
 	    					<div class="text">
-	    						<h3>198 West 21th Street</h3>
-	    						<p>Suite 721 New York NY 10016</p>
+	    						<h3>Buenos Aires</h3>
+	    						<p>Av. Dr. Ricardo Balbín 3695, C8174 CABA</p>
 	    					</div>
 	    				</div>
 	    				<div class="col-md-4 d-flex ftco-animate">
 	    					<div class="icon"><span class="icon-clock-o"></span></div>
 	    					<div class="text">
-	    						<h3>Open Monday-Friday</h3>
-	    						<p>8:00am - 9:00pm</p>
+	    						<h3>Abrimos de lunes a sabados  </h3>
+	    						<p>9 a 14hs y de 16 a 21hs</p>
 	    					</div>
 	    				</div>
 	    			</div>
 	    		</div>
-	    		<div class="social d-md-flex pl-md-5 p-4 align-items-center">
-	    			<ul class="social-icon">
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
+	    		<div class="social d-md-flex align-items-center">
+	    			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.9250397583874!2d-58.48421208405233!3d-34.555453280472015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb780c62af61b%3A0xd9495131869404ff!2sSapori%20Intensi!5e0!3m2!1ses!2sar!4v1637338176847!5m2!1ses!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 	    		</div>
     		</div>
     	</div>
@@ -118,7 +156,7 @@
 		
 
     <section class="ftco-menu">
-    	<div class="container-fluid">
+    	<div class="container-fluid" id="seccion-productos">
     		<div class="row d-md-flex">
 	    		<div class="col-lg-8 ftco-animate p-md-5">
 		    		<div class="row">
@@ -448,29 +486,7 @@
         </div>
     </div>
 
-	<div class="icon fa fa-pencil" id="form-container">
-		<span class="icon fa fa-close" id="form-close"></span>
-		<div id="form-content" class="">
-		  <div id="form-head">
-			<h1 class="pre">Get in touch</h1>
-			<p class="pre">Good choice...</p>
-			<h1 class="post">Thanks!</h1>
-			<p class="post">I'll be in touch ASAP</p>
-		  </div>
-		  <form>
-			<input class="input name" name="user_name" placeholder="Your name please" type="text">
-			<input class="input email" name="user_email" placeholder="A contact email" type="text">
-			<select class="input select" name="subject">
-			  <option disabled="">What shall we talk about?</option>
-			  <option selected="">About a new project</option>
-			  <option>About a job opportunity</option>
-			  <option>Let's do this over a coffee</option>
-			</select>
-			<textarea class="input message" placeholder="How can I help?"></textarea>
-			<input class="input submit" type="submit" value="Send Message">
-		  </form>
-		</div>
-	  </div>
+	
 
     <footer class="ftco-footer ftco-section img">
     	<div class="overlay"></div>
