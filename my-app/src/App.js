@@ -2,7 +2,7 @@ import Nav from "./components/nav";
 import "./App.css";
 import "./styles.css";
 import Home from "./components/home";
-import Productos from "./components/products";
+import ProdListContainer from "./components/productos/prodListContainer";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Location from "./components/location";
 function App() {
@@ -27,7 +27,7 @@ function App() {
       </Route>
       <Route exact path="/productos" element={<>
       <Nav></Nav>
-      <Productos></Productos>
+      <ProdListContainer></ProdListContainer>
       </>}>
       </Route>
       <Route exact path="/location" element={<>

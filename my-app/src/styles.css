@@ -1,3 +1,4 @@
+
 .index-template .site-header-desktop-primary{
     background-color: #b01e22
 }
@@ -5,6 +6,7 @@
     background-color: #b01e22
 }
 @media (max-width: 991px){
+
     .index-template .site-header-mobi-panel{
         background-color: #b01e22
     }

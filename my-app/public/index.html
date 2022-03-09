@@ -24,6 +24,296 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script
+      async=""
+      src="//assets-cdn.getbento.com/static/analytics/js/snowplow-3.1.6.min.js"
+    ></script>
+    <script
+      src="//cdn.indicative.com/js/Indicative.min.js"
+      type="text/javascript"
+      async=""
+    ></script>
+    <script
+      src="https://connect.facebook.net/signals/config/2920775804902444?v=2.9.55&amp;r=stable"
+      async=""
+    ></script>
+    <script
+      async=""
+      src="https://connect.facebook.net/en_US/fbevents.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://theme-assets.getbento.com/sensei/bf7fea5.sensei/assets/js/head.min.js"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        custom: {
+          families: [
+            "Fed Pig Sans",
+            "Fed Pig Outline",
+            "Fed Pig Smoke",
+            "Fed Pig Smoke Outline",
+            "Maxx Medium",
+          ],
+        },
+      });
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="//assets-cdn-refresh.getbento.com/stylesheet/federalistpig/scss/main.2fde139c8b0532bd0e2a18ffbca5113c.scss"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/productos.css" />
+    <link rel="stylesheet" href="./css/styleold.css" />
+    
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "2920775804902444");
+      fbq("track", "PageView");
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=2920775804902444&ev=PageView&noscript=1"
+      />
+    </noscript>
+
+    <script type="text/javascript">
+      window.Sensei = {
+        settings: {
+          store: { enabled: false, cart_quantity: null },
+          gmaps: {
+            apikey: "AIzaSyCxtTPdJqQMOwjsbKBO3adqPGzBR1MgC5g",
+            styles: [
+              {
+                featureType: "water",
+                elementType: "geometry",
+                stylers: [{ color: "#000000" }, { lightness: 17 }],
+              },
+              {
+                featureType: "landscape",
+                elementType: "geometry",
+                stylers: [{ color: "#000000" }, { lightness: 0 }],
+              },
+              {
+                featureType: "road.highway",
+                elementType: "geometry.fill",
+                stylers: [{ color: "#000000" }, { lightness: 17 }],
+              },
+              {
+                featureType: "road.highway",
+                elementType: "geometry.stroke",
+                stylers: [
+                  { color: "#000000" },
+                  { weight: 0.2 },
+                  { lightness: 29 },
+                ],
+              },
+              {
+                featureType: "road.arterial",
+                elementType: "geometry",
+                stylers: [{ color: "#000000" }, { lightness: 18 }],
+              },
+              {
+                featureType: "road.local",
+                elementType: "geometry",
+                stylers: [{ color: "#000000" }, { lightness: 16 }],
+              },
+              {
+                featureType: "poi",
+                elementType: "geometry",
+                stylers: [{ color: "#000000" }, { lightness: 7 }],
+              },
+              {
+                featureType: "all",
+                elementType: "labels.text.stroke",
+                stylers: [
+                  { visibility: "on" },
+                  { color: "#000000" },
+                  { lightness: 16 },
+                ],
+              },
+              {
+                featureType: "all",
+                elementType: "labels.text.fill",
+                stylers: [{ color: "#000000" }, { lightness: 40 }],
+              },
+              {
+                featureType: "all",
+                elementType: "labels.icon",
+                stylers: [{ visibility: "off" }],
+              },
+              {
+                featureType: "transit",
+                elementType: "geometry",
+                stylers: [{ color: "#000000" }, { lightness: 19 }],
+              },
+              {
+                featureType: "administrative",
+                elementType: "geometry.fill",
+                stylers: [{ color: "#000000" }, { lightness: 3 }],
+              },
+              {
+                featureType: "administrative",
+                elementType: "geometry.stroke",
+                stylers: [
+                  { color: "#000000" },
+                  { weight: 1.2 },
+                  { lightness: 3 },
+                ],
+              },
+            ],
+            icon: "https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/27741pig-marker-black.png",
+            mobile_icon:
+              "https%3A//images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/27741pig-marker-black.png%3Fw%3D50%26fit%3Dmax%26auto%3Dcompress%2Cformat",
+          },
+          galleries: { autoplay: false, fade: false },
+          heros: { autoplay_galleries: true },
+          srcset_enabled: false,
+        },
+        modernizr: window.Modernizr,
+      };
+      window.Sensei.settings.galleries.dots = true;
+      window.Sensei.settings.galleries.arrows = false;
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          var hasClass, addClass, removeClass;
+          if ("classList" in document.documentElement) {
+            hasClass = function (el, className) {
+              return el.classList.contains(className);
+            };
+            addClass = function (el, className) {
+              el.classList.add(className);
+            };
+            removeClass = function (el, className) {
+              el.classList.remove(className);
+            };
+          } else {
+            hasClass = function (el, className) {
+              return new RegExp("\\b" + className + "\\b").test(el.className);
+            };
+            addClass = function (el, className) {
+              if (!hasClass(el, className)) {
+                el.className += " " + className;
+              }
+            };
+            removeClass = function (el, className) {
+              el.className = el.className.replace(
+                new RegExp("\\b" + className + "\\b", "g"),
+                ""
+              );
+            };
+          }
+          HTMLCollection.prototype.forEach = Array.prototype.forEach;
+          var allCSplits = document.getElementsByClassName("c-split");
+          allCSplits.forEach(function (cSplit, cSplitIndex, cSplitList) {
+            addClass(cSplit, "c-split-" + (cSplitIndex + 1));
+            if (cSplitIndex % 2 == 0) {
+              addClass(cSplit, "c-split-odd");
+            } else {
+              addClass(cSplit, "c-split-even");
+            }
+            if (Object.is(cSplitList.length - 1, cSplitIndex)) {
+              addClass(cSplit, "c-split-last");
+            }
+          });
+        },
+        false
+      );
+    </script>
+
+
+    <style id="mobi-footer-css">
+      .has-mobi-footer .site-content:after {
+        height: 48px;
+      }
+    </style>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://static-tracking.klaviyo.com/onsite/js/fender_analytics.da7a8f90cc05e5b5b6c0.js"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://static-tracking.klaviyo.com/onsite/js/static.004d6ddb82d17e826aab.js"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://static.klaviyo.com/onsite/js/sharedUtils.b70852ec86792ccd3ae6.js"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://static.klaviyo.com/onsite/js/sentry.e9c13b4f41b96aec7b8a.js"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://static.klaviyo.com/onsite/js/vendors~signup_forms.75392ca0cecbbaa02b24.js"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://static.klaviyo.com/onsite/js/signup_forms.de32d7a63f3fbf2ac657.js"
+    ></script>
+    <style id="kl-custom-fonts">
+      @import "https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Work+Sans:ital,wght@0,400;0,700&display=swap";
+      @import "https://use.typekit.net/wpw1uih.css";
+      @import "https://use.typekit.net/phx5mih.css";
+
+      .kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1
+        .ql-font-kanit {
+        font-family: "Kanit";
+      }
+      .kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1
+        .ql-font-poppins {
+        font-family: "Poppins";
+      }
+      .kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1
+        .ql-font-work-sans {
+        font-family: "Work Sans";
+      }
+      .kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1
+        .ql-font-agenda {
+        font-family: "agenda";
+      }
+      .kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1
+        .ql-font-brandon-grotesque {
+        font-family: "brandon-grotesque";
+      }
+      .kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1
+        .ql-font-proxima-nova {
+        font-family: "proxima-nova";
+      }
+    </style>
     <title>Sapori Intensi</title>
   </head>
   <body class="has-hero-intent has-mobi-footer index-template"
@@ -40,6 +330,19 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    
+    <script
+      type="text/javascript"
+      src="https://theme-assets.getbento.com/sensei/bf7fea5.sensei/assets/js/foot.libs.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://theme-assets.getbento.com/sensei/bf7fea5.sensei/assets/js/bentobox.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://app-assets.getbento.com/analytics/948db07/bento-analytics.min.js"
+      data-bentoanalytics='{"account": "federalistpig", "theme": "sensei", "template": "index.html", "preset": "1555", "indicativeApiKey": "62e150f7-1993-460b-90ab-1bb1bd494ad7", "snowplowAppId": "customer-websites", "devMode": false}'
+    ></script>
   </body>
 </html>

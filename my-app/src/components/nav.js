@@ -62,25 +62,31 @@ export default function Nav(){
         <div className="site-header-mobi-panel__inner">
           <nav className="site-nav" aria-label="Navigation Menu">
             <ul className="site-nav-menu" data-menu-type="mobile">
-              <li>
-                <a className="site-nav-link" href="/menus/">Home</a>
+            <li>
+                <Link to={`/`} style={{ textDecoration: 'none' }}><a className="site-nav-link" href="/menus/">Home</a>
+                </Link>
               </li>
               <li>
-                <a className="site-nav-link" href="/locations/">Donde encontrarnos</a>
+              <Link to={`/location`} style={{ textDecoration: 'none' }}>
+                <a className="site-nav-link" href="/location">Donde encontrarnos</a>
+                </Link>
+              </li>
+             
+              <li>
+              <Link to={`/contacto`} style={{ textDecoration: 'none' }}>
+                <a className="site-nav-link" href="/">Contacto</a>
+                </Link>
               </li>
               <li>
-                <a className="site-nav-link" href="/catering/">Contacto</a>
+              <Link to={`/productos`} style={{ textDecoration: 'none' }}>
+                <a className="site-nav-link" href="/" target="_blank" rel="noopener">Productos</a>
+                </Link>
               </li>
               <li>
-                <a className="site-nav-link" href="/bbq-club/">Productos</a>
-              </li>
-              <li>
-                <a className="site-nav-link" href="https://www.toasttab.com/federalist-pig/giftcards" target="_blank" rel="noopener">Gift Cards</a>
-              </li>
-              <li>
+              <Link to={`/nosotros`} style={{ textDecoration: 'none' }}>
                 <a className="site-nav-link" href="/about/">Sobre Nosotros</a>
+                </Link>
               </li>
-              
             </ul>
           </nav>
           <div className="site-social site-social--bordered">
