@@ -46,7 +46,7 @@
 
 .hero-burger{
     border-radius: 70px;
-    box-shadow:  20px 20px 60px #961a1d, -20px -20px 60px #ca2327;
+    box-shadow:  0px 20px 60px 20px #961a1d, 20px 16px 60px #ca2327;
 }
 
 .fa-whatsapp:before {
@@ -61,3 +61,18 @@
         -webkit-text-stroke-color: #c8c3ae;
     }
 }
+.site-nav{
+font-size: 1rem;
+}
+@media (min-width: 1550px){
+.site-header-desktop .site-nav {
+    
+    margin-left: 10%;
+}
+}
+@media (min-width: 2000px){
+    .site-header-desktop .site-nav {
+        
+        margin-left: 26%;
+    }
+    }

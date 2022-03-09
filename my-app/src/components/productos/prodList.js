@@ -39,7 +39,7 @@ function a11yProps(index) {
     "aria-controls": `simple-tabpanel-${index}`,
   };
 }
-export default function ProductList({ productosDestacados }) {
+export default function ProductList({ productosDestacados,bebidas,prodImportados }) {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -48,7 +48,7 @@ export default function ProductList({ productosDestacados }) {
   return (
     <div
       className="site-content"
-      style={{ position: "absolute", left: "5%", top: "30%" }}
+      style={{ position: "absolute", top: "20%", paddingBottom:"5%" }}
     >
       <div
         className="site-header-spacer-mobile"
@@ -64,7 +64,7 @@ export default function ProductList({ productosDestacados }) {
           <Box sx={{ width: "100%" }}>
             <Box>
               <Tabs value={value} onChange={handleChange} centered>
-                <Tab label="Productos Destacados" {...a11yProps(0)} />
+                <Tab sx={{border:"black"}} label="Productos Destacados" {...a11yProps(0)} />
                 <Tab label="Bebidas" {...a11yProps(1)} />
                 <Tab label="Productos importados" {...a11yProps(2)} />
               </Tabs>
@@ -77,10 +77,18 @@ export default function ProductList({ productosDestacados }) {
               </div>
             </TabPanel>
             <TabPanel value={value} index={1}>
-              Item Two
+            <div className="row productos">
+                {bebidas.map((prodData) => (
+                  <Productos prodData={prodData}></Productos>
+                ))}
+              </div>
             </TabPanel>
             <TabPanel value={value} index={2}>
-              Item Three
+            <div className="row productos">
+                {prodImportados.map((prodData) => (
+                  <Productos prodData={prodData}></Productos>
+                ))}
+              </div>
             </TabPanel>
           </Box>
         </div>
