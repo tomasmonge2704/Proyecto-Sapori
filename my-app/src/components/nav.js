@@ -1,11 +1,18 @@
 import logoBlanco from '../img/logo-blanco.png';
 import { Link } from 'react-router-dom';
-export default function Nav(){
+
+
+export default function Nav(props){
+  let classname = "site-header-desktop-primary"
+  console.log(props.props)
+ if(props.props == "negro"){
+  classname = "site-header-desktop-primary negro"
+ }
     return(
-    <header className="site-header" style={{backgroundColor: '#b01e22'}}>
+    <header className="site-header">
     <a href="#main-content" className="skip">Skip to main content</a>
     <div className="site-header-desktop">
-      <div className="site-header-desktop-primary" data-header-sticky style={{backgroundColor: '#b01e22'}}>
+      <div className={classname} data-header-sticky>
         <div className="container">
           <div className="site-logo">
             <a className="site-logo__btn" href="/">

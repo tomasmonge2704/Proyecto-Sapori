@@ -5,6 +5,7 @@ import Home from "./components/home";
 import ProdListContainer from "./components/productos/prodListContainer";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Location from "./components/location";
+import Contact from "./components/contact";
 function App() {
   return (
     <BrowserRouter>
@@ -16,22 +17,22 @@ function App() {
       </>}>
       </Route>
       <Route exact path="/contacto" element={<>
-      <Nav></Nav>
-    
+      <Nav props="negro"></Nav>
+      <Contact></Contact>
       </>}>
       </Route>
       <Route exact path="/nosotros" element={<>
-      <Nav></Nav>
+      <Nav props="negro"></Nav>
     
       </>}>
       </Route>
       <Route exact path="/productos" element={<>
-      <Nav></Nav>
+      <Nav props="negro"></Nav>
       <ProdListContainer></ProdListContainer>
       </>}>
       </Route>
       <Route exact path="/location" element={<>
-      <Nav></Nav>
+      <Nav props="negro"></Nav>
       <Location></Location>
       </>}>
       </Route>
