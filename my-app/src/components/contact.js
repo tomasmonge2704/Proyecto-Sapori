@@ -56,20 +56,6 @@ export default function Contact() {
             />
             <div className="form-header"></div>
             <div className="form-ui">
-              <Box
-                component="form"
-                sx={{
-                  "& > :not(style)": { m: 1, width: "100%" },
-                }}
-                noValidate
-                autoComplete="off"
-              >
-                <TextField
-                  id="outlined-basic"
-                  label="Nombre"
-                  variant="outlined"
-                />
-              </Box>
               <label htmlFor={346772}>
                 <i className="error-label input--error show-error-label" />
                 <span className="input-label">Email</span>

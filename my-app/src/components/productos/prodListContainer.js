@@ -3,7 +3,7 @@ import ProductList from "./prodList";
 const productosDestacados = [
     {
       nombreProd:
-        "Mini horma Colonia Caroya reggianito/grano de pimienta/ finas hierbas",
+        "Mini horma Colonia Caroya reggianito",
       img: "https://http2.mlstatic.com/D_NQ_NP_840322-MLA44151909329_112020-V.jpg",
     },
     {

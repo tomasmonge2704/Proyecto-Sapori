@@ -5,7 +5,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import "./productos.css";
+import './products.css'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -48,17 +48,16 @@ export default function ProductList({ productosDestacados,bebidas,prodImportados
   return (
     <div
       className="site-content"
-      style={{ position: "absolute", top: "20%", paddingBottom:"5%" }}
+      style={{ position: "absolute", top: "12%", paddingBottom:"25%" }}
     >
-      <div
+     <div
         className="site-header-spacer-mobile"
         aria-hidden="true"
-        style={{ height: "58px" }}
+        style={{ height: "0px" }}
       />
       <section
-        id="hero"
-        className="hero hero--fullheight revealable revealed"
-        style={{ backgroundColor: "#b01e22", height: "1109.95px" }}
+        className="hero--fullheight revealable revealed"
+        style={{ backgroundColor: "#b01e22",height: "100%", position:"relative", zIndex:"0", textAlign:"center" }}
       >
         <div>
           <Box sx={{ width: "100%" }}>
@@ -70,21 +69,21 @@ export default function ProductList({ productosDestacados,bebidas,prodImportados
               </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
-              <div className="row productos">
+              <div className="list">
                 {productosDestacados.map((prodData) => (
                   <Productos prodData={prodData}></Productos>
                 ))}
               </div>
             </TabPanel>
             <TabPanel value={value} index={1}>
-            <div className="row productos">
+            <div className="list">
                 {bebidas.map((prodData) => (
                   <Productos prodData={prodData}></Productos>
                 ))}
               </div>
             </TabPanel>
             <TabPanel value={value} index={2}>
-            <div className="row productos">
+            <div className="list">
                 {prodImportados.map((prodData) => (
                   <Productos prodData={prodData}></Productos>
                 ))}

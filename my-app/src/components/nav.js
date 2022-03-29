@@ -37,14 +37,15 @@ export default function Nav(props){
                 <a className="site-nav-link" href="/">Contacto</a>
                 </Link>
               </li>
+              
               <li>
               <Link to={`/productos`} style={{ textDecoration: 'none' }}>
-                <a className="site-nav-link" href="/" target="_blank" rel="noopener">Productos</a>
+                <a className="site-nav-link" href="/" >Productos</a>
                 </Link>
               </li>
               <li>
               <Link to={`/nosotros`} style={{ textDecoration: 'none' }}>
-                <a className="site-nav-link" href="/about/">Sobre Nosotros</a>
+                <a className="site-nav-link" href="/">Sobre Nosotros</a>
                 </Link>
               </li>
             </ul>

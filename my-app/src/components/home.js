@@ -36,7 +36,7 @@ export default function Home() {
                 className="fr-fic fr-dib hero-burger"
                 data-alt_text="a close up of a sandwich"
                 alt="a close up of a sandwich"
-                style={{ width: "50%" }}
+               
               />
             </p>
             <div className="shop-fed-pig">
