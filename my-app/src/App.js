@@ -1,11 +1,10 @@
 import Nav from "./components/nav";
-import "./App.css";
 import "./styles.css";
 import Home from "./components/home";
 import ProdListContainer from "./components/productos/prodListContainer";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Location from "./components/location";
-import Contact from "./components/contact";
+import Contact from "./components/contacto/contact";
 function App() {
   return (
     <BrowserRouter>

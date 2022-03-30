@@ -1,50 +1,12 @@
+import * as React from 'react';
+import TabsUnstyled from '@mui/base/TabsUnstyled';
+import TabsListUnstyled from '@mui/base/TabsListUnstyled';
+import TabPanelUnstyled from '@mui/base/TabPanelUnstyled';
+import TabUnstyled from '@mui/base/TabUnstyled';
+import './products.css';
 import Productos from "./products";
-import * as React from "react";
-import PropTypes from "prop-types";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
-import './products.css'
-
-function TabPanel(props) {
-  const { children, value, index, ...other } = props;
-
-  return (
-    <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
-      {...other}
-    >
-      {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
-    </div>
-  );
-}
-
-TabPanel.propTypes = {
-  children: PropTypes.node,
-  index: PropTypes.number.isRequired,
-  value: PropTypes.number.isRequired,
-};
-
-function a11yProps(index) {
-  return {
-    id: `simple-tab-${index}`,
-    "aria-controls": `simple-tabpanel-${index}`,
-  };
-}
+import './tabs.css'
 export default function ProductList({ productosDestacados,bebidas,prodImportados }) {
-  const [value, setValue] = React.useState(0);
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
   return (
     <div
       className="site-content"
@@ -59,38 +21,30 @@ export default function ProductList({ productosDestacados,bebidas,prodImportados
         className="hero--fullheight revealable revealed"
         style={{ backgroundColor: "#b01e22",height: "100%", position:"relative", zIndex:"0", textAlign:"center" }}
       >
-        <div>
-          <Box sx={{ width: "100%" }}>
-            <Box>
-              <Tabs value={value} onChange={handleChange} centered>
-                <Tab sx={{border:"black"}} label="Productos Destacados" {...a11yProps(0)} />
-                <Tab label="Bebidas" {...a11yProps(1)} />
-                <Tab label="Productos importados" {...a11yProps(2)} />
-              </Tabs>
-            </Box>
-            <TabPanel value={value} index={0}>
-              <div className="list">
+      
+      <TabsUnstyled className='constainerTabs' defaultValue={0}>
+        <TabsListUnstyled className='tabs' style={{marginBottom:"5%"}}>
+          <TabUnstyled className='TabButton'>Productos Destacados</TabUnstyled>
+          <TabUnstyled className='TabButton'>Bebidas</TabUnstyled>
+          <TabUnstyled className='TabButton'>Productos Importados</TabUnstyled>
+        </TabsListUnstyled>
+        <TabPanelUnstyled value={0}> <div className="list">
                 {productosDestacados.map((prodData) => (
                   <Productos prodData={prodData}></Productos>
                 ))}
-              </div>
-            </TabPanel>
-            <TabPanel value={value} index={1}>
-            <div className="list">
+              </div></TabPanelUnstyled>
+        <TabPanelUnstyled value={1}> <div className="list">
                 {bebidas.map((prodData) => (
                   <Productos prodData={prodData}></Productos>
                 ))}
-              </div>
-            </TabPanel>
-            <TabPanel value={value} index={2}>
-            <div className="list">
+              </div></TabPanelUnstyled>
+        <TabPanelUnstyled value={2}><div className="list">
                 {prodImportados.map((prodData) => (
                   <Productos prodData={prodData}></Productos>
                 ))}
-              </div>
-            </TabPanel>
-          </Box>
-        </div>
+              </div></TabPanelUnstyled>
+      </TabsUnstyled>
+  
       </section>
     </div>
   );
