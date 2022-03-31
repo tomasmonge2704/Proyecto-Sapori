@@ -1,0 +1,22 @@
+.site-header-desktop .site-nav {
+    position: absolute;
+    left: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+@media (max-width: 1550px){
+    .mobi-footer__item .btn{
+        -webkit-text-stroke-color: #c8c3ae;
+    }
+    .site-header-desktop .site-nav {
+        position:relative
+    }
+}
+.site-nav{
+font-size: 1rem;
+}
+.negro{
+    background-color: #000 !important;
+}

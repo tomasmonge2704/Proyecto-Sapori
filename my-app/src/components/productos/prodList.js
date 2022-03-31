@@ -10,6 +10,7 @@ export default function ProductList({
   productosDestacados,
   bebidas,
   prodImportados,
+  Picadas
 }) {
   return (
     <div style={{ zIndex: "0" }}>
@@ -25,6 +26,7 @@ export default function ProductList({
           <TabUnstyled className="TabButton">Productos Destacados</TabUnstyled>
           <TabUnstyled className="TabButton">Bebidas</TabUnstyled>
           <TabUnstyled className="TabButton">Productos Importados</TabUnstyled>
+          <TabUnstyled className="TabButton">Picadas</TabUnstyled>
         </TabsListUnstyled>
         <TabPanelUnstyled value={0}>
           {" "}
@@ -45,6 +47,13 @@ export default function ProductList({
         <TabPanelUnstyled value={2}>
           <div className="list">
             {prodImportados.map((prodData) => (
+              <Productos prodData={prodData}></Productos>
+            ))}
+          </div>
+        </TabPanelUnstyled>
+        <TabPanelUnstyled value={3}>
+          <div className="list">
+            {Picadas.map((prodData) => (
               <Productos prodData={prodData}></Productos>
             ))}
           </div>

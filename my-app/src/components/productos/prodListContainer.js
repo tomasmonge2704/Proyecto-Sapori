@@ -1,5 +1,6 @@
 import ProductList from "./prodList";
-
+import Picada from '../../img/picada.png';
+import Picada2 from '../../img/picada2.png';
 const productosDestacados = [
     {
       nombreProd:
@@ -45,6 +46,24 @@ const productosDestacados = [
           "Arytza mayonesa con ajo / ahumada 340g",
         img: "http://d3ugyf2ht6aenh.cloudfront.net/stores/942/490/products/arytza-360gr-61-92362582364b0ad2e116388053459156-640-0.png",
       }
+  ];
+  const Picadas = [
+    {
+      nombreProd:
+        "Picada para 2 Personas",
+      img: Picada,
+    },
+    {
+      nombreProd:
+        "Picada para 4 Personas",
+      img: Picada2,
+    },
+    {
+      nombreProd:
+        "Picada para 8 Personas",
+      img: Picada,
+    },
+    
   ];
   const bebidas = [
     {
@@ -127,6 +146,6 @@ const productosDestacados = [
   ];
 export default function ProdListContainer(){
     return(
-        <ProductList productosDestacados={productosDestacados} bebidas={bebidas} prodImportados={prodImportados}></ProductList>
+        <ProductList productosDestacados={productosDestacados} bebidas={bebidas} prodImportados={prodImportados} Picadas={Picadas}></ProductList>
     )
 }

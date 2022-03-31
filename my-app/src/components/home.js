@@ -1,6 +1,7 @@
 import picada from "../img/klipartz.com.png";
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import { styled } from '@mui/material/styles';
+import { Link } from "react-router-dom";
 const BootstrapTooltip = styled(({ className, ...props }) => (
     <Tooltip {...props} arrow classes={{ popper: className }} />
   ))(({ theme }) => ({
@@ -41,9 +42,11 @@ export default function Home() {
             </p>
             <div className="shop-fed-pig">
               <p>
+              <Link to={`/contacto`} style={{ textDecoration: 'none' }}>
                 <a className="btn btn-brand" href="/order-online">
                   Pedi tu picada
                 </a>
+                </Link>
               </p>
             </div>
             <div className="social-hero">
@@ -88,9 +91,11 @@ export default function Home() {
       <aside className="mobi-footer mobi-footer--sticky">
         <ul className="mobi-footer__list">
           <li className="mobi-footer__item">
+          <Link to={`/contacto`} style={{ textDecoration: 'none' }}>
             <a href="/order-online" className="btn btn-brand-alt btn-block"
               >Pedi tu picada</a
             >
+            </Link>
           </li>
         </ul>
       </aside>

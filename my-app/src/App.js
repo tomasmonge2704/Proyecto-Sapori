@@ -1,4 +1,4 @@
-import Nav from "./components/nav";
+import Nav from "./components/nav/nav";
 import "./styles.css";
 import Home from "./components/home";
 import ProdListContainer from "./components/productos/prodListContainer";
@@ -6,6 +6,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Location from "./components/location";
 import Contact from "./components/contacto/contact";
 import Testimonios from "./components/testimonios";
+import SobreNosotros from "./components/nosotros/nosotros";
 function App() {
   return (
     <BrowserRouter>
@@ -27,11 +28,10 @@ function App() {
       </>}>
       </Route>
       <Route exact path="/nosotros" element={<>
-      <Nav props="negro">
-
-      </Nav>
-      <div id="ProdDiv">
-    <Testimonios/>
+      <Nav props="negro"/>
+      <div style={{paddingTop:"9vh"}}>
+      <SobreNosotros/>
+      <Testimonios/>
     </div>
       </>}>
       </Route>

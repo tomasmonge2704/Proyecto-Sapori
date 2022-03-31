@@ -1,6 +1,6 @@
-import logoBlanco from '../img/logo-blanco.png';
+import logoBlanco from '../../img/logo-blanco.png';
 import { Link } from 'react-router-dom';
-
+import './nav.css'
 
 export default function Nav(props){
   let classname = "site-header-desktop-primary"
