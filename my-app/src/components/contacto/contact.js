@@ -6,7 +6,7 @@ $(document).on("click", ".send_form", function () {
 
   /* Whatsapp Settings */
   var walink = "https://web.whatsapp.com/send",
-    phone = "6281977094280",
+    phone = "5491154146740",
     walink2 = "Hola! mi nombre es ",
     text_yes = "Muchas gracias!",
     text_no = "Por favor verificar los datos.";
@@ -95,8 +95,8 @@ export default function Contact() {
         </a>
         <div id="text-info" />
         <div className="divContact">
-    <span class="fa fa-whatsapp"></span>001 1023 567
-    <span class="fa fa-instagram"></span> contact@company.com
+    <span className="fa fa-whatsapp"></span>+54 9 11 5414-6740
+    <span className="fa fa-instagram"></span>@sapori.intensi
   </div>
       </form>
     </div>

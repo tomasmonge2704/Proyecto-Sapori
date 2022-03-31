@@ -4,7 +4,6 @@ import './nav.css'
 
 export default function Nav(props){
   let classname = "site-header-desktop-primary"
-  console.log(props.props)
  if(props.props == "negro"){
   classname = "site-header-desktop-primary negro"
  }
@@ -105,13 +104,10 @@ export default function Nav(props){
           <div className="site-social site-social--bordered">
             <ul className="social-accounts">
               <li>
-                <a href="https://www.facebook.com/federalistpig/" target="_blank" rel="noopener" data-bb-track="button" data-bb-track-on="click" data-bb-track-category="Social Icons" data-bb-track-action="Click" data-bb-track-label="Facebook, Header"><span className="fa fa-facebook" aria-hidden="true" /><span className="sr-only">Facebook</span></a>
+                <a href="https://wa.me/5491154146740" target="_blank" rel="noopener" data-bb-track="button" data-bb-track-on="click" data-bb-track-category="Social Icons" data-bb-track-action="Click" data-bb-track-label="Twitter, Header"><span className="fa fa-whatsapp" aria-hidden="true" /><span className="sr-only">Whatsapp</span></a>
               </li>
               <li>
-                <a href="https://twitter.com/federalistpig?lang=en" target="_blank" rel="noopener" data-bb-track="button" data-bb-track-on="click" data-bb-track-category="Social Icons" data-bb-track-action="Click" data-bb-track-label="Twitter, Header"><span className="fa fa-twitter" aria-hidden="true" /><span className="sr-only">Twitter</span></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/federalistpig/" target="_blank" rel="noopener" data-bb-track="button" data-bb-track-on="click" data-bb-track-category="Social Icons" data-bb-track-action="Click" data-bb-track-label="Instagram, Header"><span className="fa fa-instagram" aria-hidden="true" /><span className="sr-only">Instagram</span></a>
+                <a href="https://www.instagram.com/sapori.intensi/" target="_blank" rel="noopener" data-bb-track="button" data-bb-track-on="click" data-bb-track-category="Social Icons" data-bb-track-action="Click" data-bb-track-label="Instagram, Header"><span className="fa fa-instagram" aria-hidden="true" /><span className="sr-only">Instagram</span></a>
               </li>
             </ul>
           </div>

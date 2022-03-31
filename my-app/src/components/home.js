@@ -58,7 +58,7 @@ export default function Home() {
                   data-bb-track-category="Social Icons"
                   data-bb-track-label="Facebook, Footer"
                   data-bb-track-on="click"
-                  href="https://wa.me/5491167843278 "
+                  href="https://wa.me/5491154146740"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

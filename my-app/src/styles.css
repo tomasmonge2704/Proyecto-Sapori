@@ -56,7 +56,7 @@
 #mapa{
     width: 100%;
     padding-top: 7.5rem;
-    height: 100rem;
+    height: 1000px;
 }
 @media (max-width: 991px){
     .index-template .nav-toggle-btn__line, .index-template .nav-toggle-btn:hover .nav-toggle-btn__line {

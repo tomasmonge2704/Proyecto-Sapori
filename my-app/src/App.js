@@ -20,6 +20,15 @@ function App() {
       </div>
       </>}>
       </Route>
+      <Route exact path="/Proyecto-sapori/" element={<>
+      <Nav></Nav>
+      <Home></Home>
+      <ProdListContainer/>
+      <div style={{marginTop:"10%",paddingBottom:"10%"}}>
+      <Contact/>
+      </div>
+      </>}>
+      </Route>
       <Route exact path="/contacto" element={<>
       <Nav props="negro"></Nav>
       <div id="ProdDiv">
