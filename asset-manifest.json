@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tomasmonge2704/Proyecto-sapori.git/static/css/main.eb79b65f.css",
-    "main.js": "/tomasmonge2704/Proyecto-sapori.git/static/js/main.9a249c51.js",
-    "static/js/787.28cb0dcd.chunk.js": "/tomasmonge2704/Proyecto-sapori.git/static/js/787.28cb0dcd.chunk.js",
-    "static/media/picada.png": "/tomasmonge2704/Proyecto-sapori.git/static/media/picada.255db434daca0a31057e.png",
-    "static/media/picada2.png": "/tomasmonge2704/Proyecto-sapori.git/static/media/picada2.141f2e4fa9bf4176768a.png",
-    "static/media/klipartz.com.png": "/tomasmonge2704/Proyecto-sapori.git/static/media/klipartz.com.41d5699ca575d9436027.png",
-    "static/media/fotoFamilia.png": "/tomasmonge2704/Proyecto-sapori.git/static/media/fotoFamilia.88365ddaccf67af777b2.png",
-    "static/media/fotoLugar.jpg": "/tomasmonge2704/Proyecto-sapori.git/static/media/fotoLugar.c245dc96ef65111e88c4.jpg",
-    "index.html": "/tomasmonge2704/Proyecto-sapori.git/index.html",
-    "main.eb79b65f.css.map": "/tomasmonge2704/Proyecto-sapori.git/static/css/main.eb79b65f.css.map",
-    "main.9a249c51.js.map": "/tomasmonge2704/Proyecto-sapori.git/static/js/main.9a249c51.js.map",
-    "787.28cb0dcd.chunk.js.map": "/tomasmonge2704/Proyecto-sapori.git/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.eb79b65f.css",
+    "main.js": "/static/js/main.98d6240f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/picada.png": "/static/media/picada.255db434daca0a31057e.png",
+    "static/media/picada2.png": "/static/media/picada2.141f2e4fa9bf4176768a.png",
+    "static/media/klipartz.com.png": "/static/media/klipartz.com.41d5699ca575d9436027.png",
+    "static/media/fotoFamilia.png": "/static/media/fotoFamilia.88365ddaccf67af777b2.png",
+    "static/media/fotoLugar.jpg": "/static/media/fotoLugar.c245dc96ef65111e88c4.jpg",
+    "index.html": "/index.html",
+    "main.eb79b65f.css.map": "/static/css/main.eb79b65f.css.map",
+    "main.98d6240f.js.map": "/static/js/main.98d6240f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb79b65f.css",
-    "static/js/main.9a249c51.js"
+    "static/js/main.98d6240f.js"
   ]
 }
