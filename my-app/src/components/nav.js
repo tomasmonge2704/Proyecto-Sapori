@@ -48,6 +48,11 @@ export default function Nav(props){
                 <a className="site-nav-link" href="/">Sobre Nosotros</a>
                 </Link>
               </li>
+              <li>
+              <Link to={`/nosotros`} style={{ display: 'none' }}>
+                <a className="site-nav-link" href="/">Testiomonios</a>
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>

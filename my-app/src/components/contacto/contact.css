@@ -45,3 +45,27 @@ form.whatsapp-form {
   margin:0 auto;
   box-sizing:border-box;
 }
+.divContact{
+
+        content: 'Hi';
+        position: relative;
+        bottom: -5px;
+        left: 70%;
+        background: black;
+        color: #fff;
+        width: 320px;
+        padding: 16px 4px 16px 0;
+        border-radius: 6px;
+        font-size: 13px;
+
+}
+.divContact span{
+    font: normal normal normal 14px/1 FontAwesome;
+        margin: 0 5px 0 15px;
+
+}
+@media (max-width: 991px){
+    .divContact{
+        position: unset;
+    }
+}

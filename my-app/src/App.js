@@ -5,6 +5,7 @@ import ProdListContainer from "./components/productos/prodListContainer";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Location from "./components/location";
 import Contact from "./components/contacto/contact";
+import Testimonios from "./components/testimonios";
 function App() {
   return (
     <BrowserRouter>
@@ -12,27 +13,40 @@ function App() {
       <Route exact path="/" element={<>
       <Nav></Nav>
       <Home></Home>
-      
+      <ProdListContainer/>
+      <div style={{marginTop:"5%",paddingBottom:"5%"}}>
+      <Contact/>
+      </div>
       </>}>
       </Route>
       <Route exact path="/contacto" element={<>
       <Nav props="negro"></Nav>
-      <Contact></Contact>
+      <div id="ProdDiv">
+      <Contact/>
+      </div>
       </>}>
       </Route>
       <Route exact path="/nosotros" element={<>
-      <Nav props="negro"></Nav>
-    
+      <Nav props="negro">
+
+      </Nav>
+      <div id="ProdDiv">
+    <Testimonios/>
+    </div>
       </>}>
       </Route>
       <Route exact path="/productos" element={<>
       <Nav props="negro"></Nav>
-      <ProdListContainer></ProdListContainer>
+      <div id="ProdDiv">
+      <ProdListContainer/>
+      </div>
       </>}>
       </Route>
       <Route exact path="/location" element={<>
       <Nav props="negro"></Nav>
-      <Location></Location>
+      <div style={{ height:"100vh", width:"100%", paddingTop:"10vh"}}>
+      <Location/>
+      </div>
       </>}>
       </Route>
     </Routes>

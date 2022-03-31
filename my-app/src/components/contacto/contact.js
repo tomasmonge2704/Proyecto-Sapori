@@ -43,19 +43,8 @@ var blanter_whatsapp = walink + '?phone=' + phone + '&text=' + walink2 + input_n
 });
 export default function Contact() {
   return (
-    <div className="site-content">
-      <div
-        className="site-header-spacer-desktop"
-        aria-hidden="true"
-        style={{ height: "131.047px" }}
-      />
-      <div
-        className="site-header-spacer-mobile"
-        aria-hidden="true"
-        style={{ height: "58px" }}
-      />
-     
-       <h1 style={{display:"flex",justifyContent:"center"}}>Contactanos por Whatsapp!</h1>
+    <div>
+       <h1 style={{display:"flex",justifyContent:"center",textAlign:"center"}}>Contactanos por Whatsapp!</h1>
       <form className="whatsapp-form">
         <div className="datainput">
           <input
@@ -105,6 +94,10 @@ export default function Contact() {
           Send to Whatsapp
         </a>
         <div id="text-info" />
+        <div className="divContact">
+    <span class="fa fa-whatsapp"></span>001 1023 567
+    <span class="fa fa-instagram"></span> contact@company.com
+  </div>
       </form>
     </div>
   );

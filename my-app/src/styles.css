@@ -56,26 +56,28 @@
     .index-template .nav-toggle-btn__line, .index-template .nav-toggle-btn:hover .nav-toggle-btn__line {
     background-color: #c8c3ae;
 }}
-@media (max-width: 991px){
+.site-header-desktop .site-nav {
+    position: absolute;
+    left: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+@media (max-width: 1550px){
     .mobi-footer__item .btn{
         -webkit-text-stroke-color: #c8c3ae;
+    }
+    .site-header-desktop .site-nav {
+        position:relative
     }
 }
 .site-nav{
 font-size: 1rem;
 }
-@media (min-width: 1550px){
-.site-header-desktop .site-nav {
-    
-    margin-left: 14%;
-}
-}
-@media (min-width: 2000px){
-    .site-header-desktop .site-nav {
-        
-        margin-left: 26%;
-    }
-    }
+
+
+
 .negro{
     background-color: #000 !important;
 }
