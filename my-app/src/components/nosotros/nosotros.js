@@ -1,6 +1,7 @@
 import './nosotros.css'
 import fotoLugar from '../../img/fotoLugar.jpg';
 import fotoFamilia from '../../img/fotoFamilia.png';
+import { Link } from "react-router-dom";
 export default function SobreNosotros(){
     
     return(
@@ -9,9 +10,11 @@ export default function SobreNosotros(){
         <div className="c-split__col ">
           <div className="c-split__col-inner">
             <div className="c-split__content content">
-              <h2 className="h2 c-split__heading">Craft BBQ</h2>
-              <p>Serving American Regional Barbecue with an emphasis on fresh ingredients, curated sandwiches, and weekly specials all made from scratch. Available for pickup &amp; delivery!</p>
-              <a href="/order-online" className="btn btn-brand">Order Now</a>
+              <h2 className="h2 c-split__heading">Nuestro Lugar</h2>
+              <p>Nos encontramos en Bs As, en Saavedra, Av. Dr. Ricardo Balbín 3695. No dudes en venir a visitarnos!</p>
+              <Link to={`/location`} style={{ textDecoration: 'none' }}>
+              <a href="/order-online" className="btn btn-brand">Como llegar</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -25,9 +28,9 @@ export default function SobreNosotros(){
       <div className="c-split__col ">
         <div className="c-split__col-inner">
           <div className="c-split__content content">
-            <h2 className="h2 c-split__heading">Catering</h2>
-            <p>We'll bring the 'que to you!</p>
-            <a href="/catering" className="btn btn-brand">See Catering Options</a>
+            <h2 className="h2 c-split__heading">Nuestro Equipo</h2>
+            <p>Somos una empresa familiar muy unida, tenes que venir a vivir anecdotas con nosotros!</p>
+            <a href="https://www.instagram.com/sapori.intensi/" className="btn btn-brand">Mira nuestro instagram</a>
           </div>
         </div>
       </div>

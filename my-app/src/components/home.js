@@ -58,7 +58,7 @@ export default function Home() {
                   data-bb-track-category="Social Icons"
                   data-bb-track-label="Facebook, Footer"
                   data-bb-track-on="click"
-                  href="https://www.facebook.com/federalistpig/"
+                  href="https://wa.me/5491167843278 "
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -75,7 +75,7 @@ export default function Home() {
                   data-bb-track-category="Social Icons"
                   data-bb-track-label="Instagram, Footer"
                   data-bb-track-on="click"
-                  href="https://www.instagram.com/federalistpig/"
+                  href="https://www.instagram.com/sapori.intensi/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

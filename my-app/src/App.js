@@ -15,7 +15,7 @@ function App() {
       <Nav></Nav>
       <Home></Home>
       <ProdListContainer/>
-      <div style={{marginTop:"5%",paddingBottom:"5%"}}>
+      <div style={{marginTop:"10%",paddingBottom:"10%"}}>
       <Contact/>
       </div>
       </>}>
@@ -44,7 +44,7 @@ function App() {
       </Route>
       <Route exact path="/location" element={<>
       <Nav props="negro"></Nav>
-      <div style={{ height:"100vh", width:"100%", paddingTop:"10vh"}}>
+      <div id ="mapa">
       <Location/>
       </div>
       </>}>
