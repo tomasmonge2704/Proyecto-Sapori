@@ -1,6 +1,8 @@
 import ProductList from "./prodList";
 import Picada from '../../img/picada.png';
 import Picada2 from '../../img/picada2.png';
+import mirtillo from '../../img/mirtillo.png';
+import mayonesaClasica from '../../img/mayoclasica.png';
 const productosDestacados = [
     {
       nombreProd:
@@ -15,7 +17,7 @@ const productosDestacados = [
     {
       nombreProd:
         "Mirtillo mermelada de arandanos400g",
-      img: "https://http2.mlstatic.com/D_NQ_NP_966661-MLA43632460939_092020-V.jpg",
+      img: mirtillo,
     },
     {
         nombreProd:
@@ -38,7 +40,7 @@ const productosDestacados = [
     {
         nombreProd:
           "Arytza mayonesa clasica 340g",
-        img: "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/345/284/products/17581-e67efa995900a3c1ac16330099850598-1024-1024.jpg",
+        img: mayonesaClasica,
       }
       ,
     {

@@ -2,14 +2,14 @@ import Nav from "./components/nav/nav";
 import "./styles.css";
 import Home from "./components/home";
 import ProdListContainer from "./components/productos/prodListContainer";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {HashRouter, Routes, Route} from "react-router-dom";
 import Location from "./components/location";
 import Contact from "./components/contacto/contact";
 import Testimonios from "./components/testimonios";
 import SobreNosotros from "./components/nosotros/nosotros";
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route exact path="/" element={<>
       <Nav></Nav>
@@ -59,7 +59,7 @@ function App() {
       </>}>
       </Route>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
