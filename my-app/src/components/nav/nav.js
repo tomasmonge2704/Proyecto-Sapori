@@ -14,10 +14,12 @@ export default function Nav(props){
       <div className={classname} data-header-sticky>
         <div className="container">
           <div className="site-logo">
+          <Link to={`/`} style={{ textDecoration: 'none' }}>
             <a className="site-logo__btn" href="/">
               <img className="site-logo__expanded" src={logoBlanco} alt="Federalist Pig Home" />
               <img className="site-logo__collapsed" src={logoBlanco} alt="qr code" />
             </a>
+            </Link>
           </div>
           <nav className="site-nav">
             <ul className="site-nav-menu" data-menu-type="desktop">

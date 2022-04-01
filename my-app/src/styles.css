@@ -56,13 +56,25 @@
 #mapa{
     width: 100%;
     padding-top: 7.5rem;
-    height: 1000px;
+    height: 100vh;
+}
+@media (max-width: 1550px){
+    #mapa{
+        padding-top: 10rem;
+    }
 }
 @media (max-width: 991px){
     .index-template .nav-toggle-btn__line, .index-template .nav-toggle-btn:hover .nav-toggle-btn__line {
     background-color: #c8c3ae;
 }
 #mapa{
+    height: 80rem;
     padding-top: 2rem;
 }
 }
+@media (max-width: 667px) {
+    #mapa{
+        height: 70rem;
+        padding-top: 1rem;
+    }
+  }

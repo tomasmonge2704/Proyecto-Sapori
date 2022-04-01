@@ -31,3 +31,16 @@
     font-size: 10px;
   }
 }
+@media (max-width: 667px) {
+  .TabButton {
+    font-size: 20px;
+  }
+  .tabs{
+    display: grid !important;
+    justify-content: unset !important;
+  }
+  .TabButton{
+    margin-bottom: 8px;
+  }
+
+}
