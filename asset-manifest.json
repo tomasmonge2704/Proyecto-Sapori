@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Proyecto-sapori/static/css/main.36d0c866.css",
-    "main.js": "/Proyecto-sapori/static/js/main.2c7e52bb.js",
+    "main.css": "/Proyecto-sapori/static/css/main.43a85317.css",
+    "main.js": "/Proyecto-sapori/static/js/main.b1b1fb65.js",
     "static/js/787.28cb0dcd.chunk.js": "/Proyecto-sapori/static/js/787.28cb0dcd.chunk.js",
     "static/media/picada.png": "/Proyecto-sapori/static/media/picada.255db434daca0a31057e.png",
     "static/media/picada2.png": "/Proyecto-sapori/static/media/picada2.141f2e4fa9bf4176768a.png",
@@ -9,12 +9,12 @@
     "static/media/fotoFamilia.png": "/Proyecto-sapori/static/media/fotoFamilia.88365ddaccf67af777b2.png",
     "static/media/fotoLugar.jpg": "/Proyecto-sapori/static/media/fotoLugar.c245dc96ef65111e88c4.jpg",
     "index.html": "/Proyecto-sapori/index.html",
-    "main.36d0c866.css.map": "/Proyecto-sapori/static/css/main.36d0c866.css.map",
-    "main.2c7e52bb.js.map": "/Proyecto-sapori/static/js/main.2c7e52bb.js.map",
+    "main.43a85317.css.map": "/Proyecto-sapori/static/css/main.43a85317.css.map",
+    "main.b1b1fb65.js.map": "/Proyecto-sapori/static/js/main.b1b1fb65.js.map",
     "787.28cb0dcd.chunk.js.map": "/Proyecto-sapori/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36d0c866.css",
-    "static/js/main.2c7e52bb.js"
+    "static/css/main.43a85317.css",
+    "static/js/main.b1b1fb65.js"
   ]
 }
