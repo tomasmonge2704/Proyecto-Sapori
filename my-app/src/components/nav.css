@@ -1,0 +1,127 @@
+
+@media (min-width: 992px){
+.site-header-desktop {
+    display: block;
+}
+}
+.site-header-desktop {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    display: none;
+}
+.site-header-desktop-primary[data-header-sticky] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.site-header-desktop-primary {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.site-header-desktop-primary>.container, .site-footer-desktop-primary__container {
+    max-width: none;
+}
+.site-header-desktop-primary>.container {
+    text-align: center;
+    line-height: 0;
+}
+@media (min-width: 544px){
+.container {
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+}
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    max-width: 1010px;
+}
+.index-template .site-logo {
+    filter: none;
+}
+.site-header-desktop .site-logo {
+    width: auto;
+    margin: 0 auto 1rem;
+}
+.site-header-desktop .site-nav {
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+@media (min-width: 992px){
+.site-nav {
+    font-size: .8rem;
+}
+}
+.site-nav {
+    font-family: "Fed Pig Sans";
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.site-nav ul, .site-nav li {
+    display: block;
+}
+.site-nav ul {
+    padding-left: 0;
+    list-style: none;
+}
+.site-nav-menu {
+    margin-bottom: 0;
+}
+.site-header-desktop-primary .site-nav li {
+    position: relative;
+}
+.site-header-desktop .site-nav-menu>li {
+    display: inline-block;
+}
+.index-template .site-header-desktop-primary .site-nav-link {
+    color: #c8c3ae;
+}
+.site-nav-menu a:not(.btn), .site-nav-menu button:not(.btn), .site-nav-submenu>span, .site-nav-submenu>a {
+    -webkit-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+    display: inline-block;
+}
+@media (min-width: 992px){
+.site-nav-menu>li>a, .site-nav-menu>li.site-nav-submenu>button.site-nav-submenu-toggle, .site-nav-submenu>span, .site-nav-submenu>a {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+}
+.site-nav-menu>li>a, .site-nav-menu>li.site-nav-submenu>button.site-nav-submenu-toggle, .site-nav-submenu>span, .site-nav-submenu>a {
+    padding: 0.5em 0.5em;
+}
+.site-nav a, .site-nav a:hover, .site-nav button, .site-nav button:hover {
+    text-decoration: none;
+}
+.index-template .site-header-desktop-primary .site-nav li:after {
+    background-color: #000;
+}
+.site-header-desktop-primary .site-nav li:after {
+    content: "";
+    display: block;
+    background: gold;
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: auto;
+    z-index: -1;
+    transition: width 0.2s ease-in-out;
+}

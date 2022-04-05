@@ -50,7 +50,7 @@
     box-shadow:  0px 20px 60px 20px #961a1d, 20px 16px 60px #ca2327;
 }
 
-.fa-whatsapp:before {
+.social-hero .fa-whatsapp:before {
     margin-left:24%;
 }
 #mapa{
@@ -66,6 +66,9 @@
 @media (max-width: 991px){
     .index-template .nav-toggle-btn__line, .index-template .nav-toggle-btn:hover .nav-toggle-btn__line {
     background-color: #c8c3ae;
+}
+.mobi-footer__item .btn:hover, .mobi-footer__item .btn:active, .mobi-footer__item .btn:focus{
+   background-color: #b01e22;     
 }
 #mapa{
     height: 80rem;

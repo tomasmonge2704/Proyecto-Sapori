@@ -54,16 +54,19 @@ const productosDestacados = [
       nombreProd:
         "Picada para 2 Personas",
       img: Picada,
+      price: 1200
     },
     {
       nombreProd:
         "Picada para 4 Personas",
       img: Picada2,
+      price: 2200
     },
     {
       nombreProd:
-        "Picada para 8 Personas",
+        "Picada para 6 Personas",
       img: Picada,
+      price: 3400
     },
     
   ];
