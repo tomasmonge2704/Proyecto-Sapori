@@ -1,15 +1,8 @@
 import logoBlanco from "../../img/logo-blanco.png";
 import { Link } from "react-router-dom";
 import "./nav.css";
-import $ from "jquery";
 
 let classMobi = "site-header-mobi-panel"
-$(document).on("click", ".mobilink", function () {
-  $("#botonHamburgesa").removeClass("nav-toggle-btn--active");
-  $("#botonHamburgesa").attr("aria-expanded","false");
-  $("#botonHamburgesa").css("outline","none");
-  $("#SiteHeaderMobilePanel").removeClass("site-header-mobi-panel--show site-header-mobi-panel--open");
-});
 
 export default function Nav(props) {
   
@@ -145,7 +138,7 @@ export default function Nav(props) {
                   <Link
                     to={`/location`}
                     style={{ textDecoration: "none" }}
-                    className="site-nav-link mobilink"
+                    className="site-nav-link mobilink nav-toggle-btn--active"
                   >
                     Donde encontrarnos
                   </Link>
