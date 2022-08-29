@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/Proyecto-sapori/static/css/main.43a85317.css",
-    "main.js": "/Proyecto-sapori/static/js/main.b1b1fb65.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Proyecto-sapori/static/js/787.28cb0dcd.chunk.js",
-    "static/media/picada.png": "/Proyecto-sapori/static/media/picada.255db434daca0a31057e.png",
-    "static/media/picada2.png": "/Proyecto-sapori/static/media/picada2.141f2e4fa9bf4176768a.png",
-    "static/media/klipartz.com.png": "/Proyecto-sapori/static/media/klipartz.com.41d5699ca575d9436027.png",
-    "static/media/fotoFamilia.png": "/Proyecto-sapori/static/media/fotoFamilia.88365ddaccf67af777b2.png",
-    "static/media/fotoLugar.jpg": "/Proyecto-sapori/static/media/fotoLugar.c245dc96ef65111e88c4.jpg",
-    "index.html": "/Proyecto-sapori/index.html",
-    "main.43a85317.css.map": "/Proyecto-sapori/static/css/main.43a85317.css.map",
-    "main.b1b1fb65.js.map": "/Proyecto-sapori/static/js/main.b1b1fb65.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Proyecto-sapori/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.b3884aa7.css",
+    "main.js": "/static/js/main.77618a90.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/picada.png": "/static/media/picada.255db434daca0a31057e.png",
+    "static/media/picada2.png": "/static/media/picada2.141f2e4fa9bf4176768a.png",
+    "static/media/mirtillo.png": "/static/media/mirtillo.d0f742f8eec405c64b3c.png",
+    "static/media/klipartz.com.png": "/static/media/klipartz.com.41d5699ca575d9436027.png",
+    "static/media/mayoclasica.png": "/static/media/mayoclasica.3afe4579cb17b7e17d82.png",
+    "static/media/fotoFamilia.png": "/static/media/fotoFamilia.88365ddaccf67af777b2.png",
+    "static/media/fotoLugar.jpg": "/static/media/fotoLugar.c245dc96ef65111e88c4.jpg",
+    "index.html": "/index.html",
+    "main.b3884aa7.css.map": "/static/css/main.b3884aa7.css.map",
+    "main.77618a90.js.map": "/static/js/main.77618a90.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43a85317.css",
-    "static/js/main.b1b1fb65.js"
+    "static/css/main.b3884aa7.css",
+    "static/js/main.77618a90.js"
   ]
 }
